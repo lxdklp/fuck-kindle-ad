@@ -1,0 +1,5 @@
+{
+	"items": [
+		{"name": "Fuck AD", "priority": 1, "action": "bin/fad.sh"}
+	]
+}
