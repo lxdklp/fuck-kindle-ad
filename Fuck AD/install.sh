@@ -5,7 +5,7 @@ rm -rf /mnt/us/system/.assets/* \
        /var/local/adunits/* \
        /var/local/merchant/*
 
-sqlite3 appreg.db <<'SQL'
+sqlite3 /var/local/appreg.db <<'SQL'
 UPDATE properties
    SET value='false'
  WHERE handlerid='dcc'
